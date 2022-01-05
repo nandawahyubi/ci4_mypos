@@ -1,0 +1,17 @@
+<?= $this->extend('layout/default') ?>
+
+<?= $this->section('title'); ?>
+<title>Home &mdash; yukNikah</title>
+<?= $this->endSection(); ?>
+
+<?= $this->section('content') ?>
+<section class="section">
+    <div class="section-header">
+        <h1>Dashboard</h1>
+    </div>
+
+    <div class="section-body">
+        <p>hello world</p>
+    </div>
+</section>
+<?= $this->endSection() ?>
